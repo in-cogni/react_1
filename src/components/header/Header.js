@@ -1,9 +1,11 @@
 import logo from '../../logo.svg'
 
 function Header() {
+    let title = "Introduction to React"
     return (
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
+            <h1>{title}</h1>
             <p>
                 Edit <code>src/App.js</code> and save to reload.
             </p>
