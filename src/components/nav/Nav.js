@@ -1,3 +1,5 @@
+import './Nav.css';
+
 function Nav(props)
 {
     return(

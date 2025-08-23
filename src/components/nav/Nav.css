@@ -1,0 +1,41 @@
+nav > ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 0;
+    background: linear-gradient(to right, #bda4ff, #4823a9);
+}
+
+li 
+{
+    display: inline-block;
+    margin: 0 5vh 0 5vh;
+    font-family: 'Calibri';
+    font-size: xx-large;
+    padding: 0 3vh 1vh 3vh;
+    border-radius: 10px;
+    transition: box-shadow 0.5s ease;
+
+}
+
+li:hover 
+{
+    box-shadow: #bda4ff 0 0 20px;
+}
+
+a 
+{
+    color: black;
+}
+
+li:hover a, li:hover:visited a 
+{
+    color: white;
+}
+
+a:visited 
+{
+    color: #41238b;
+}

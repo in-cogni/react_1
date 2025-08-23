@@ -1,7 +1,7 @@
 import './Article.css';
 
 function Article(props) {
-    let {title, content} = props; //Деструктуризация
+    let {title = "Заголовок статьи", content = "Содержимое статьи"} = props; //Деструктуризация
     return(
         <article>
             <h1 style={{color: "darkblue", fontSize: "32px"}}>{title}</h1>
@@ -17,6 +17,6 @@ function Article(props) {
     )
 }
 
-Article.defaultProps = {title:`I want to sleep I want to sleep I want to sleep I want to sleep Заголовок статьи`,content:`Содержимое статьи`};
+// Article.defaultProps = {title:`Заголовок статьи`,content:`Содержимое статьи`};
 
 export default Article;
