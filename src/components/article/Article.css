@@ -5,3 +5,60 @@ article
     padding: 25px;
     margin: 0;
 }
+
+.app
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    padding: 20px;
+}
+.card
+{
+    width: 250px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px darkgray;
+    transition: 0.3s ease;
+}
+.card:hover
+{
+    box-shadow: 0 5px 15px black;
+}
+
+.card img[alt="Photo"]
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 10%;
+    margin-bottom: 15px;
+    border: 3px solid #bda4ff;
+}
+.card:hover img[alt="Photo"]
+{
+    box-shadow: 0 5px 15px #4823a9;
+}
+
+.gender img
+{
+    width: 30px;
+    height: 30px;
+}
+.name 
+{
+    text-align: center;
+    font-size: 18px;
+}
+.age
+{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
